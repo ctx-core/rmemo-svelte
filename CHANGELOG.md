@@ -1,5 +1,13 @@
 # @ctx-core/rmemo-svelte
 
+## 0.1.5
+
+### Patch Changes
+
+- ctx-core: ^5.18.5 -> ^5.18.6
+- Updated dependencies
+  - @ctx-core/svelte@16.0.36
+
 ## 0.1.4
 
 ### Patch Changes
