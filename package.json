@@ -46,7 +46,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/svelte": "^16.0.59",
-		"ctx-core": "^5.27.0"
+		"ctx-core": "^5.27.1"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.0.2",
