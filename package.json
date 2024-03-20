@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/rmemo-svelte",
-	"version": "0.1.78",
+	"version": "0.1.79",
 	"description": "rmemo & svelte store interop",
 	"keywords": [
 		"rmemo",
@@ -23,7 +23,11 @@
 		"url": "https://github.com/ctx-core/rmemo-svelte.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+rmemo-svelte@briantakita.me"
+	},
 	"type": "module",
 	"types": "./index.d.ts",
 	"files": [
@@ -45,8 +49,8 @@
 		"disable:test:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/svelte": "^16.0.108",
-		"ctx-core": "^6.6.0"
+		"@ctx-core/svelte": "^16.0.109",
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.1.1",

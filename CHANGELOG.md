@@ -1,5 +1,14 @@
 # @ctx-core/rmemo-svelte
 
+## 0.1.79
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+  - @ctx-core/svelte@16.0.109
+
 ## 0.1.78
 
 ### Patch Changes
