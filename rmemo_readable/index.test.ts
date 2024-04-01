@@ -6,11 +6,11 @@ test('rmemo_readable_|subscribe,off', ()=>{
 	const sig = sig_(0)
 	const readable = rmemo_readable_(sig)
 	equal(readable.$, 0)
-	sig._ = 1
+	sig.set(1)
 	equal(readable.$, 1)
 	equal(sig(), 1)
 	readable.off()
-	sig._ = 2
+	sig.set(2)
 	equal(readable.$, 1)
 	equal(sig(), 2)
 })

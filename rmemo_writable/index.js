@@ -7,7 +7,7 @@ import { memo_, subscribe } from 'ctx-core/rmemo'
 export function rmemo_writable_(sig) {
 	let writable = writable_(sig())
 	let unsubscribe_a = [
-		writable.subscribe(val=>sig._ = val),
+		writable.subscribe(val=>sig.set(val)),
 		subscribe(sig, ()=>
 			memo_(()=>{
 				writable.$ = sig()

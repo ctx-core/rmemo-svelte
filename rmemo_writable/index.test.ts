@@ -6,14 +6,14 @@ test('rmemo_writable_|subscribe,off', ()=>{
 	const sig = sig_(0)
 	const writable = rmemo_writable_(sig)
 	equal(writable.$, 0)
-	sig._ = 1
+	sig.set(1)
 	equal(writable.$, 1)
 	equal(sig(), 1)
 	writable.$ = 2
 	equal(writable.$, 2)
 	equal(sig(), 2)
 	writable.off()
-	sig._ = 3
+	sig.set(3)
 	equal(writable.$, 2)
 	equal(sig(), 3)
 	writable.$ = 4
