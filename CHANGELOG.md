@@ -1,5 +1,11 @@
 # @ctx-core/rmemo-svelte
 
+## 0.1.97
+
+### Patch Changes
+
+- @ctx-core/svelte: ^16.0.126 -> ^16.0.127
+
 ## 0.1.96
 
 ### Patch Changes
