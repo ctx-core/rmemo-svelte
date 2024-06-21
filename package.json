@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/rmemo-svelte",
-	"version": "0.1.122",
+	"version": "0.1.123",
 	"description": "rmemo & svelte store interop",
 	"keywords": [
 		"rmemo",
@@ -49,15 +49,15 @@
 		"disable:test:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/svelte": "^16.0.152",
-		"ctx-core": "^7.2.22"
+		"@ctx-core/svelte": "^16.0.153",
+		"ctx-core": "^7.2.23"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.1.4",
 		"c8": "^10.1.2",
 		"check-dts": "^0.8.0",
 		"size-limit": "^11.1.4",
-		"tsx": "^4.15.6",
+		"tsx": "^4.15.7",
 		"typescript": "next",
 		"uvu": "^0.5.6"
 	},
