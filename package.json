@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/rmemo-svelte",
-	"version": "0.1.128",
+	"version": "0.1.129",
 	"description": "rmemo & svelte store interop",
 	"keywords": [
 		"rmemo",
@@ -49,8 +49,8 @@
 		"disable:test:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/svelte": "^16.0.158",
-		"ctx-core": "^7.2.28"
+		"@ctx-core/svelte": "^16.0.159",
+		"ctx-core": "^7.2.29"
 	},
 	"devDependencies": {
 		"@size-limit/preset-small-lib": "^11.1.4",
