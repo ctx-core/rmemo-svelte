@@ -1,5 +1,14 @@
 # @ctx-core/rmemo-svelte
 
+## 0.1.134
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/svelte@16.0.164
+
 ## 0.1.133
 
 ### Patch Changes
